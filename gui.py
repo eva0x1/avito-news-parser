@@ -31,7 +31,7 @@ ctk.set_default_color_theme("blue")
 class ParserApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("AvitoHunter v.2.0 (Playwright Edition)")
+        self.root.title("Avito Hunter P. v.2.0 (Playwright Edition)")
 
         screen_w = root.winfo_screenwidth()
         screen_h = root.winfo_screenheight()
@@ -575,7 +575,7 @@ class ParserApp:
             btn.pack(anchor="w", padx=18, pady=2)
 
         # -------- Заголовок --------
-        title("🎯  AvitoHunter — инструкция по настройке")
+        title("🎯  Avito Hunter P. — инструкция по настройке")
         intro(
             "Настройка занимает 5–10 минут. Выполни шаги по порядку, "
             "и программа будет стабильно мониторить Авито и слать уведомления в Telegram."

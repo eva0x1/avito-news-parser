@@ -1,8 +1,8 @@
-# AvitoHunter 🎯
+# Avito Hunter P. 🎯
 
 Программа для автоматического мониторинга объявлений на Avito. Задаёшь запрос и город - программа сама обновляет список каждые N минут и шлёт новые объявления в Telegram. Удобно, когда ищешь что-то конкретное (например, б/у iPhone в своём городе) и не хочешь каждый час обновлять страницу вручную.
 
-*Версия 2.0 - переехала с Selenium на Playwright. Быстрее, стабильнее, меньше палится антиботом.*
+*Avito Hunter P. - версия на Playwright (буква «P» от Playwright). Быстрее, стабильнее, меньше палится антиботом. Есть и легаси-версия на Selenium - Avito Hunter S., лежит в отдельном репозитории.*
 
 *Инструкция рассчитана на людей без опыта с кодом. Если что-то непонятно - читай внимательно, не пропускай шаги.*
 
@@ -53,22 +53,14 @@
 
 1. Открой любую папку, где хочешь хранить программу (например, `C:\`).
 2. В этой папке щёлкни правой кнопкой в пустое место → «Открыть в терминале» (или «Open Git Bash here»).
-3. Введи команду в зависимости от того, какую версию хочешь:
-
-   *Selenium-версия (стабильная, ветка `main`):*
+3. Введи команду:
    ```
-   git clone https://github.com/sakitoru1x1/avito-news-parser
+   git clone https://github.com/sakitoru1x1/avito-hunter-p
    ```
-
-   *Playwright-версия (AvitoHunter v2, ветка `avito-hunter`):*
-   ```
-   git clone -b avito-hunter https://github.com/sakitoru1x1/avito-news-parser
-   ```
-
-   В обоих случаях появится папка `avito-news-parser`.
+   Появится папка `avito-hunter-p`.
 4. Зайди в неё:
    ```
-   cd avito-news-parser
+   cd avito-hunter-p
    ```
 5. Поставь все нужные библиотеки (это делается один раз):
    ```
@@ -230,6 +222,6 @@ python main.py
 
 ## Проблемы и баги
 
-Если что-то не работает - открой Issue на GitHub: https://github.com/sakitoru1x1/avito-news-parser/issues
+Если что-то не работает - открой Issue на GitHub: https://github.com/sakitoru1x1/avito-hunter-p/issues
 
 Приложи лог из `parser.log` и опиши что именно не работает.
