@@ -53,11 +53,19 @@
 
 1. Открой любую папку, где хочешь хранить программу (например, `C:\`).
 2. В этой папке щёлкни правой кнопкой в пустое место → «Открыть в терминале» (или «Open Git Bash here»).
-3. Введи команду:
+3. Введи команду в зависимости от того, какую версию хочешь:
+
+   *Selenium-версия (стабильная, ветка `main`):*
    ```
    git clone https://github.com/sakitoru1x1/avito-news-parser
    ```
-   Появится папка `avito-news-parser`.
+
+   *Playwright-версия (AvitoHunter v2, ветка `avito-hunter`):*
+   ```
+   git clone -b avito-hunter https://github.com/sakitoru1x1/avito-news-parser
+   ```
+
+   В обоих случаях появится папка `avito-news-parser`.
 4. Зайди в неё:
    ```
    cd avito-news-parser
